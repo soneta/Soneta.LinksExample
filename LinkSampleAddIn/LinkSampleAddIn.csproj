@@ -30,6 +30,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Soneta.Business, Version=12.3.6320.22711, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\enova\bin\Debug\Soneta.Business.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Core, Version=12.3.6320.22714, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\enova\bin\Debug\Soneta.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Types, Version=12.3.6320.22709, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\enova\bin\Debug\Soneta.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
