@@ -35,7 +35,7 @@ namespace LinkSampleAddIn
             {
                 var pars = Tuple.Fields["Pars"]?.ToString() ?? "Nie określono parametrów";
                 var info = Tuple.Fields["Info"]?.ToString() ?? "Nie określono pola Info";
-                var link = HTTPLinkInfo.Create(Tuple, pars).GetLink();
+                var link = HTTPLinkInfo.Create<LinkHandler>(Tuple, pars).GetLink();
 
                 tran.Commit();
 
