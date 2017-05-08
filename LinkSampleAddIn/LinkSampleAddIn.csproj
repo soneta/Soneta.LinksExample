@@ -40,6 +40,11 @@
       <HintPath>..\..\enova\bin\Debug\Soneta.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Soneta.CRM, Version=12.3.6320.22718, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\enova\bin\Debug\Soneta.CRM.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Soneta.Types, Version=12.3.6320.22709, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\enova\bin\Debug\Soneta.Types.dll</HintPath>
@@ -51,6 +56,7 @@
   <ItemGroup>
     <Compile Include="LinkCreatorWorker.cs" />
     <Compile Include="LinkHandler.cs" />
+    <Compile Include="MailSender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
